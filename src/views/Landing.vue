@@ -15,7 +15,7 @@
     <div
       class="form-inline mt-4 px-2 d-flex align-items-center justify-content-end"
     >
-      <strong class="mr-3">Peringkat Guru</strong>
+      <strong class="mb-3 mb-sm-0 mr-sm-3">Peringkat Guru</strong>
       <select class="form-control form-control-sm">
         <option value="best">Rating Tertinggi</option>
         <option value="worst">Rating Terendah</option>
@@ -27,7 +27,7 @@
       <div
         v-for="i in 6"
         :key="`teacher-${i}`"
-        class="col-lg-4 p-4 text-center"
+        class="col-sm-6 col-lg-4 p-4 text-center"
       >
         <div class="border rounded-lg p-4">
           <div
