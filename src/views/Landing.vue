@@ -3,7 +3,10 @@
     <div
       class="p-3 py-4 border-bottom d-flex align-items-center justify-content-between"
     >
-      <h2 class="mb-0">SMK ASSALAM DEPOK</h2>
+      <h2 class="logo mb-0 d-flex align-items-center">
+        <img class="mr-3" :src="`${$publicPath}images/logo.png`" />
+        SMK ASSALAM DEPOK
+      </h2>
       <div>
         <div class="btn btn-success ml-3">Isi Angket</div>
         <div class="btn btn-warning ml-3">Riwayat Angket</div>
@@ -45,6 +48,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.logo {
+  img {
+    height: 40px;
+  }
+}
+
 .profile-picture {
   height: 125px;
   width: 125px;
