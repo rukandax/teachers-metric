@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div
-      class="p-3 py-4 border-bottom d-flex align-items-center justify-content-between"
+      class="px-2 py-4 border-bottom d-flex align-items-center justify-content-between"
     >
       <h2 class="logo mb-0 d-flex align-items-center">
         <img class="mr-3" :src="`${$publicPath}images/logo.png`" />
@@ -11,6 +11,17 @@
         <div class="btn btn-success ml-3">Isi Angket</div>
         <div class="btn btn-warning ml-3">Riwayat Angket</div>
       </div>
+    </div>
+    <div
+      class="form-inline mt-4 px-2 d-flex align-items-center justify-content-end"
+    >
+      <strong class="mr-3">Peringkat Guru</strong>
+      <select class="form-control form-control-sm">
+        <option value="best">Rating Tertinggi</option>
+        <option value="worst">Rating Terendah</option>
+        <option value="popular">Popularitas Tertinggi</option>
+        <option value="unpopular">Popularitas Terendah</option>
+      </select>
     </div>
     <div class="row">
       <div
