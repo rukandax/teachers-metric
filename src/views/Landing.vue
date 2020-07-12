@@ -30,6 +30,9 @@
               <div class="profile-stars--fill"></div>
             </div>
           </div>
+          <div class="mt-2 text-muted">
+            <small><em>5.0 Points - 1000 Feedbacks</em></small>
+          </div>
         </div>
       </div>
     </div>
