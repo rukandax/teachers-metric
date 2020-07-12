@@ -42,7 +42,7 @@
             </div>
           </div>
           <div class="mt-2 text-muted">
-            <small><em>5.0 Points - 1000 Feedbacks</em></small>
+            <small><em>5.0 Poin - 1000 Data</em></small>
           </div>
         </div>
       </div>
