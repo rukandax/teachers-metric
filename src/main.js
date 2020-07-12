@@ -3,7 +3,15 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import "bootstrap/dist/css/bootstrap.css";
+
 Vue.config.productionTip = false;
+
+Vue.use({
+  install(Vue) {
+    Vue.prototype.$publicPath = process.env.BASE_URL;
+  }
+});
 
 new Vue({
   router,

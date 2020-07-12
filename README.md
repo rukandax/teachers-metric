@@ -1,4 +1,8 @@
-# angket-guru
+# Teachers Metric
+
+Survey app that help school to get teacher's performance score based on student's answers
+
+# Development
 
 ## Project setup
 ```
